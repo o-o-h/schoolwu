@@ -15,33 +15,35 @@ h1{
 h2{
 	font-size:2em;
  	font-weight:700;
-	line-height:160%;}
+	line-height:150%;}
 
 h3{
 	font-size:2.4em;
  	font-weight:700;
-	line-height:160%;}
+	line-height:150%;}
 
 h4{
 	font-size:2.4em;
  	font-weight:400;
-	line-height:160%;}
+	line-height:150%;}
 
 .stxt {
 	font-size:2em;
  	font-weight:400;
-	line-height:160%;}
+	line-height:150%;}
 
 .xstxt {
 	font-size:1.8em;
  	font-weight:400;
-	line-height:160%;}
+	line-height:150%;}
 
 .footertxt{
 	font-size:1.4em;
  	font-weight:400;
-	line-height:160%;}
+	line-height:150%;}
 
+
+.header_masking{height:24vw;}
 .margin_4vw{margin:4vw;}
 .margin_3vw{margin:3vw;}
 .margin_2vw{margin:2vw;}
@@ -51,11 +53,15 @@ h4{
 .space_XS {position:relative;width:100%;height:1vw;}
 
 header{
-	position:relative;
+	position:fixed;
+	top:0;
+	width:100%;
 	display: block;
 	height:auto;
 	text-align: center;
 	margin-bottom:4vw;
+	background-color: #f0f0f0;
+	z-index: 10;
 }
 
 header img{width:20vw;margin-bottom:2vw;}
@@ -89,7 +95,7 @@ footer img{
 
 .stroke_fullwidth{background-color: rgba(51,51,51,0.25);height:1px;width:100%;margin:0;padding:0;}
 
-.footer-comp{width:92vw;padding:2vw 4vw 2vw 4vw;}
+.footer_comp{width:92vw;padding:2vw 4vw 2vw 4vw;}
 
 
 
@@ -225,7 +231,7 @@ to{opacity: 1;}
 .btn_2box {
 	background-color:#fff;
 	border-radius: 20px;
-	box-shadow: 2vw 2vw 4vw rgba(0,0,0,0.05);;
+	box-shadow: 2vw 2vw 4vw rgba(0,0,0,0.05);
 	height: auto;
 	left: 0px;
 	position: relative;
@@ -327,20 +333,53 @@ background-color:#e0e0e0;
 .btn_purple {
 	background-color:#947AF6;
 	border-radius: 10px;
-	border: 0;
+	border:0;
 	color:white;
 	width:92vw;
 	margin:4vw;
 	height:auto;
-	padding:2vw;
+	padding:3vw;
 	font-size:2.4em;
-	font-weight:700;
-	}
+	font-weight:700;}
 
-.btn_purple:hover {opacity:80%}
-.btn_purple:active {opacity:60%}
+.btn_purple:hover {opacity:80%;border:0;}
+.btn_purple:active {opacity:60%;border:0;}
+
+.btn_white {
+	background-color:white;
+	border-radius: 10px;
+	border: 0;
+	color:#333;
+	width:92vw;
+	margin:4vw;
+	height:auto;
+	padding:3vw;
+	font-size:2.4em;
+	font-weight:700;}
+
+.btn_white:hover {opacity:80%;border:0;}
+.btn_white:active {opacity:60%;border:0;}
 
 
+
+.input_box {position:relative;
+	background-color:rgba(255,255,255,0.5);
+	border:1px #BEBEBE solid;
+	border-radius:10px;
+	width:92vw;
+	height:auto;
+	padding:3vw;
+	margin:1vw 4vw;
+	font-size:2.4em;}
+
+::placeholder {
+  color:rgba(51,51,51,0.4);}
+
+:-ms-input-placeholder {
+  color:rgba(51,51,51,0.4);}
+
+::-ms-input-placeholder {
+  color:rgba(51,51,51,0.4);}
 
 
 

@@ -45,15 +45,32 @@ h4{
 	line-height: 1.6em;
 }
 
+.margin_4vw{margin:4vw;}
+.margin_3vw{margin:3vw;}
+.margin_2vw{margin:2vw;}
+
 header{
+	position:relative;
+	display: block;
+	height:auto;
+	text-align: center;
+	margin-bottom:4vw;
+}
+
+header img{width:20vw;margin-bottom:2vw;}
+
+.header-main{
 	margin:4vw;
 	position:relative;
 	display: block;
 	height:auto;
 	text-align: center;
-
+	width:92vw;
+	margin-top:4vw;
 }
 
+.main-logo{width:60vw;max-width:320px;
+	}
 
 footer{
 	position:relative;
@@ -73,9 +90,7 @@ footer img{
 
 .footer-comp{width:92vw;padding:2vw 4vw 2vw 4vw;}
 
-.main-logo{
-	width: 50%;height:auto;max-width:320px;margin-top:4vw;
-}
+
 
 
 
@@ -162,7 +177,7 @@ opacity: 0;transform: translate(0, 25px);
 .animate-enter3 {
   animation: animate-enter-frames 0.40s ease-in-out 0.90s 1 normal forwards;
   display: block;
-opacity: 0;transform: translate(0, 25px);
+	opacity: 0;transform: translate(0, 25px);
 }
 
 @keyframes animate-enter-frames {
@@ -175,8 +190,74 @@ from{opacity: 0;}
 to{opacity: 1;}
 }
 
+-webkit-@keyframes animate-enter-frames {
+from{opacity: 0;transform: translate(0, 25px);}
+to{opacity: 1;transform: translate(0,0);}
+}
 
-.desc{margin:7vw;}
+-webkit-@keyframes logo-enter-frames {
+from{opacity: 0;}
+to{opacity: 1;}
+}
+
+
+.desc{margin:4vw;}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn_2box {
+	background-color:#fff;
+	border-radius: 20px;
+	box-shadow: 2vw 2vw 4vw rgba(0,0,0,0.05);;
+	height: auto;
+	left: 0px;
+	position: relative;
+	top: 0px;
+	width:84vw;
+	left:4vw;
+	margin-bottom:4vw;
+	padding:4vw;
+	transition: all 0.2s ease;
+}
+
+.btn_2box:hover {
+box-shadow: 20px 20px 20px -10px rgba(0,0,0,0.2);
+background-color:#f7f7f7;
+}
+
+.btn_2box:active {
+background-color:#e0e0e0;
+}
+
+
+.btn2_img {
+	position:relative;
+	width:100%;
+	text-align: center;
+	top:0;
+	margin:2vw 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -185,6 +266,10 @@ to{opacity: 1;}
 
 @media (min-width: 62rem) {
 	body{}
+	.margin_4vw{margin:20px;}
+	.margin_3vw{margin:20px;}
+	header {}
+	header img{width:100px;margin-bottom:12px;}
 	footer{height:110px;margin-bottom:-110px;}
 	footer img{
 		position:relative;
@@ -195,7 +280,7 @@ to{opacity: 1;}
 	.footer-comp{width:98%;padding:1vw;}
 
 	.main-logo{
-	width: 320px;height:auto;margin-top:0;
+	width: 300px;height:auto;margin-top:0;
 }
 
 	.header-main{
@@ -228,8 +313,21 @@ to{opacity: 1;}
 
 	.m_hide{display:block;}
 
-
 	.desc{margin:40px;}
+
+
+
+
+	.btn_2box{
+		width:23vw;
+		padding:2vw;
+		margin:1vw;
+		left:21vw;
+	}
+
+	.btn_2box img {
+		width:70%;
+		max-width:320px;}
 
 
 }

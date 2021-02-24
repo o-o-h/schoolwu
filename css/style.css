@@ -467,8 +467,7 @@ background-color:#e0e0e0;}
 [type="radio"]:checked,
 [type="radio"]:not(:checked) {
     position: absolute;
-    left: -9999px;
-}
+    left: -9999px;}
 [type="radio"]:checked + label,
 [type="radio"]:not(:checked) + label
 {
@@ -477,8 +476,7 @@ background-color:#e0e0e0;}
     cursor: pointer;
     line-height:4vw;
     display: inline-block;
-    color: #333;
-}
+    color: #333;}
 [type="radio"]:checked + label:before,
 [type="radio"]:not(:checked) + label:before {
     content: '';
@@ -488,8 +486,7 @@ background-color:#e0e0e0;}
     width: 4vw;
     height: 4vw;
     border: 1px solid #333;
-    border-radius: 100%;
-}
+    border-radius: 100%;}
 [type="radio"]:checked + label:after,
 [type="radio"]:not(:checked) + label:after {
     content: '';
@@ -502,18 +499,15 @@ background-color:#e0e0e0;}
     left: 1vw;
     border-radius: 100%;
     -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-}
+    transition: all 0.2s ease;}
 [type="radio"]:not(:checked) + label:after {
     opacity: 0;
     -webkit-transform: scale(0);
-    transform: scale(0);
-}
+    transform: scale(0);}
 [type="radio"]:checked + label:after {
     opacity: 1;
     -webkit-transform: scale(1);
-    transform: scale(1);
-}
+    transform: scale(1);}
 
 
 
@@ -529,8 +523,7 @@ background-color:#e0e0e0;}
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
-}
+  user-select: none;}
 
 /* Hide the browser's default checkbox */
 .checkbox_container input {
@@ -538,8 +531,7 @@ background-color:#e0e0e0;}
   opacity: 0;
   cursor: pointer;
   height: 0;
-  width: 0;
-}
+  width: 0;}
 
 /* Create a custom checkbox */
 .checkmark {
@@ -548,30 +540,25 @@ background-color:#e0e0e0;}
   left: 0;
   height: 4.5vw;
   width: 4.5vw;
-  border: 2px solid rgba(51,51,51,0.5);
-}
+  border: 2px solid rgba(51,51,51,0.5);}
 
 /* On mouse-over, add a grey background color */
 .checkbox_container:hover input ~ .checkmark {
-  background-color: #fff;
-}
+  background-color: #fff;}
 
 /* When the checkbox is checked, add a blue background */
 .checkbox_container input:checked ~ .checkmark {
-  background-color:rgba(148,122,246,0.5);
-}
+  background-color:rgba(148,122,246,0.5);}
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
   content: "";
   position: absolute;
-  display: none;
-}
+  display: none;}
 
 /* Show the checkmark when checked */
 .checkbox_container input:checked ~ .checkmark:after {
-  display: block;
-}
+  display: block;}
 
 /* Style the checkmark/indicator */
 .checkbox_container .checkmark:after {
@@ -583,8 +570,7 @@ background-color:#e0e0e0;}
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
+  transform: rotate(45deg);}
 
 
 
@@ -819,27 +805,24 @@ background-color:#e0e0e0;}
 		position: absolute;
 		width: 20px;
 		height:20px;
-		top:4px;
-	}
+		top:4px;}
 	[type="radio"]:checked + label:after,
 	[type="radio"]:not(:checked) + label:after {
 		content: '';
 		width: 10px;
 		height: 10px;
 		top:9px;
-		left:5px;
-	}
+		left:5px;}
 
 
 	.icon_plus {
 		width:20px;
 		height:20px;
 		top:3px;}
+
 	.icon_plus:hover {
 		width:20px;
 		height:20px;}
-
-
 
 	.input_box_3clm {
 		border-radius:5px;
@@ -866,9 +849,7 @@ background-color:#e0e0e0;}
 		margin:0;
 		font-size:1em;
 		line-height:160%;
-		font-weight:400;}
-
-}
+		font-weight:400;}}
 
 
 

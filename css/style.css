@@ -456,13 +456,13 @@ textarea {height:1000px;}
 .disabled {opacity:50%;}
 
 .icon_plus {position: relative;
-	background-image:url('/img/icon_plus.png');
+	background-image:url('../img/icon_plus.png');
 	background-size: contain;
 	width:5vw;
 	height:5vw;}
 .icon_plus img{width:100%}
 .icon_plus:hover {
-    background-image:url('/img/icon_plus_hover.png');
+    background-image:url('../img/icon_plus_hover.png');
 	background-size: contain;
 	width:5vw;
 	height:5vw;}

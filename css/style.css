@@ -37,7 +37,7 @@ h4{
  	font-weight:400;
 	line-height:150%;}
 
-.footertxt{
+.xxstxt{
 	font-size:1.4em;
  	font-weight:400;
 	line-height:150%;}
@@ -333,32 +333,34 @@ background-color:#e0e0e0;
 .btn_purple {
 	background-color:#947AF6;
 	border-radius: 10px;
-	border:0;
+	border:none;
 	color:white;
 	width:92vw;
 	margin:4vw;
 	height:auto;
 	padding:3vw;
 	font-size:2.4em;
-	font-weight:700;}
+	font-weight:700;
+	box-shadow: 1vw 1vw 2vw rgba(148, 122, 246, 0.3);}
 
-.btn_purple:hover {opacity:80%;border:0;}
-.btn_purple:active {opacity:60%;border:0;}
+.btn_purple:hover {opacity:80%;border:none;}
+.btn_purple:active {opacity:60%;border:none;}
 
 .btn_white {
 	background-color:white;
 	border-radius: 10px;
-	border: 0;
+	border:none;
 	color:#333;
 	width:92vw;
 	margin:4vw;
 	height:auto;
 	padding:3vw;
 	font-size:2.4em;
-	font-weight:700;}
+	font-weight:700;
+	box-shadow: 1vw 1vw 2vw rgba(51, 51, 51, 0.1);}
 
-.btn_white:hover {opacity:80%;border:0;}
-.btn_white:active {opacity:60%;border:0;}
+.btn_white:hover {opacity:80%;border:none;}
+.btn_white:active {opacity:60%;border:none;}
 
 
 
@@ -380,6 +382,18 @@ background-color:#e0e0e0;
 
 ::-ms-input-placeholder {
   color:rgba(51,51,51,0.4);}
+
+
+
+
+.required {color:#FF5C00;}
+
+
+
+
+
+
+
 
 
 
